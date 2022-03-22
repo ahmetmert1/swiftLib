@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C415734427D4E0FA006C9F85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415734327D4E0FA006C9F85 /* AppDelegate.swift */; };
+		C415734627D4E0FA006C9F85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415734527D4E0FA006C9F85 /* SceneDelegate.swift */; };
+		C415734827D4E0FA006C9F85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415734727D4E0FA006C9F85 /* ViewController.swift */; };
+		C415734B27D4E0FA006C9F85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C415734927D4E0FA006C9F85 /* Main.storyboard */; };
+		C415734D27D4E0FA006C9F85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C415734C27D4E0FA006C9F85 /* Assets.xcassets */; };
+		C415735027D4E0FA006C9F85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C415734E27D4E0FA006C9F85 /* LaunchScreen.storyboard */; };
+		C415735B27D4E0FA006C9F85 /* coinYakalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415735A27D4E0FA006C9F85 /* coinYakalaTests.swift */; };
+		C415736527D4E0FA006C9F85 /* coinYakalaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415736427D4E0FA006C9F85 /* coinYakalaUITests.swift */; };
+		C415736727D4E0FA006C9F85 /* coinYakalaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415736627D4E0FA006C9F85 /* coinYakalaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C415735727D4E0FA006C9F85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C415733827D4E0FA006C9F85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C415733F27D4E0FA006C9F85;
+			remoteInfo = coinYakala;
+		};
+		C415736127D4E0FA006C9F85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C415733827D4E0FA006C9F85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C415733F27D4E0FA006C9F85;
+			remoteInfo = coinYakala;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C415734027D4E0FA006C9F85 /* coinYakala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coinYakala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C415734327D4E0FA006C9F85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C415734527D4E0FA006C9F85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C415734727D4E0FA006C9F85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C415734A27D4E0FA006C9F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C415734C27D4E0FA006C9F85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C415734F27D4E0FA006C9F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C415735127D4E0FA006C9F85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C415735627D4E0FA006C9F85 /* coinYakalaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coinYakalaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C415735A27D4E0FA006C9F85 /* coinYakalaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coinYakalaTests.swift; sourceTree = "<group>"; };
+		C415736027D4E0FA006C9F85 /* coinYakalaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coinYakalaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C415736427D4E0FA006C9F85 /* coinYakalaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coinYakalaUITests.swift; sourceTree = "<group>"; };
+		C415736627D4E0FA006C9F85 /* coinYakalaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coinYakalaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C415733D27D4E0FA006C9F85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C415735327D4E0FA006C9F85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C415735D27D4E0FA006C9F85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C415733727D4E0FA006C9F85 = {
+			isa = PBXGroup;
+			children = (
+				C415734227D4E0FA006C9F85 /* coinYakala */,
+				C415735927D4E0FA006C9F85 /* coinYakalaTests */,
+				C415736327D4E0FA006C9F85 /* coinYakalaUITests */,
+				C415734127D4E0FA006C9F85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C415734127D4E0FA006C9F85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C415734027D4E0FA006C9F85 /* coinYakala.app */,
+				C415735627D4E0FA006C9F85 /* coinYakalaTests.xctest */,
+				C415736027D4E0FA006C9F85 /* coinYakalaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C415734227D4E0FA006C9F85 /* coinYakala */ = {
+			isa = PBXGroup;
+			children = (
+				C415734327D4E0FA006C9F85 /* AppDelegate.swift */,
+				C415734527D4E0FA006C9F85 /* SceneDelegate.swift */,
+				C415734727D4E0FA006C9F85 /* ViewController.swift */,
+				C415734927D4E0FA006C9F85 /* Main.storyboard */,
+				C415734C27D4E0FA006C9F85 /* Assets.xcassets */,
+				C415734E27D4E0FA006C9F85 /* LaunchScreen.storyboard */,
+				C415735127D4E0FA006C9F85 /* Info.plist */,
+			);
+			path = coinYakala;
+			sourceTree = "<group>";
+		};
+		C415735927D4E0FA006C9F85 /* coinYakalaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C415735A27D4E0FA006C9F85 /* coinYakalaTests.swift */,
+			);
+			path = coinYakalaTests;
+			sourceTree = "<group>";
+		};
+		C415736327D4E0FA006C9F85 /* coinYakalaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C415736427D4E0FA006C9F85 /* coinYakalaUITests.swift */,
+				C415736627D4E0FA006C9F85 /* coinYakalaUITestsLaunchTests.swift */,
+			);
+			path = coinYakalaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C415733F27D4E0FA006C9F85 /* coinYakala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C415736A27D4E0FA006C9F85 /* Build configuration list for PBXNativeTarget "coinYakala" */;
+			buildPhases = (
+				C415733C27D4E0FA006C9F85 /* Sources */,
+				C415733D27D4E0FA006C9F85 /* Frameworks */,
+				C415733E27D4E0FA006C9F85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coinYakala;
+			productName = coinYakala;
+			productReference = C415734027D4E0FA006C9F85 /* coinYakala.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C415735527D4E0FA006C9F85 /* coinYakalaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C415736D27D4E0FA006C9F85 /* Build configuration list for PBXNativeTarget "coinYakalaTests" */;
+			buildPhases = (
+				C415735227D4E0FA006C9F85 /* Sources */,
+				C415735327D4E0FA006C9F85 /* Frameworks */,
+				C415735427D4E0FA006C9F85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C415735827D4E0FA006C9F85 /* PBXTargetDependency */,
+			);
+			name = coinYakalaTests;
+			productName = coinYakalaTests;
+			productReference = C415735627D4E0FA006C9F85 /* coinYakalaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C415735F27D4E0FA006C9F85 /* coinYakalaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C415737027D4E0FA006C9F85 /* Build configuration list for PBXNativeTarget "coinYakalaUITests" */;
+			buildPhases = (
+				C415735C27D4E0FA006C9F85 /* Sources */,
+				C415735D27D4E0FA006C9F85 /* Frameworks */,
+				C415735E27D4E0FA006C9F85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C415736227D4E0FA006C9F85 /* PBXTargetDependency */,
+			);
+			name = coinYakalaUITests;
+			productName = coinYakalaUITests;
+			productReference = C415736027D4E0FA006C9F85 /* coinYakalaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C415733827D4E0FA006C9F85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C415733F27D4E0FA006C9F85 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					C415735527D4E0FA006C9F85 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C415733F27D4E0FA006C9F85;
+					};
+					C415735F27D4E0FA006C9F85 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C415733F27D4E0FA006C9F85;
+					};
+				};
+			};
+			buildConfigurationList = C415733B27D4E0FA006C9F85 /* Build configuration list for PBXProject "coinYakala" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C415733727D4E0FA006C9F85;
+			productRefGroup = C415734127D4E0FA006C9F85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C415733F27D4E0FA006C9F85 /* coinYakala */,
+				C415735527D4E0FA006C9F85 /* coinYakalaTests */,
+				C415735F27D4E0FA006C9F85 /* coinYakalaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C415733E27D4E0FA006C9F85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C415735027D4E0FA006C9F85 /* LaunchScreen.storyboard in Resources */,
+				C415734D27D4E0FA006C9F85 /* Assets.xcassets in Resources */,
+				C415734B27D4E0FA006C9F85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C415735427D4E0FA006C9F85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C415735E27D4E0FA006C9F85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C415733C27D4E0FA006C9F85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C415734827D4E0FA006C9F85 /* ViewController.swift in Sources */,
+				C415734427D4E0FA006C9F85 /* AppDelegate.swift in Sources */,
+				C415734627D4E0FA006C9F85 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C415735227D4E0FA006C9F85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C415735B27D4E0FA006C9F85 /* coinYakalaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C415735C27D4E0FA006C9F85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C415736727D4E0FA006C9F85 /* coinYakalaUITestsLaunchTests.swift in Sources */,
+				C415736527D4E0FA006C9F85 /* coinYakalaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C415735827D4E0FA006C9F85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C415733F27D4E0FA006C9F85 /* coinYakala */;
+			targetProxy = C415735727D4E0FA006C9F85 /* PBXContainerItemProxy */;
+		};
+		C415736227D4E0FA006C9F85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C415733F27D4E0FA006C9F85 /* coinYakala */;
+			targetProxy = C415736127D4E0FA006C9F85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C415734927D4E0FA006C9F85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C415734A27D4E0FA006C9F85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C415734E27D4E0FA006C9F85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C415734F27D4E0FA006C9F85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C415736827D4E0FA006C9F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C415736927D4E0FA006C9F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C415736B27D4E0FA006C9F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSBGPNU5U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = coinYakala/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmert.coinYakala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C415736C27D4E0FA006C9F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSBGPNU5U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = coinYakala/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmert.coinYakala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C415736E27D4E0FA006C9F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSBGPNU5U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmert.coinYakalaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coinYakala.app/coinYakala";
+			};
+			name = Debug;
+		};
+		C415736F27D4E0FA006C9F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSBGPNU5U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmert.coinYakalaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coinYakala.app/coinYakala";
+			};
+			name = Release;
+		};
+		C415737127D4E0FA006C9F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSBGPNU5U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmert.coinYakalaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coinYakala;
+			};
+			name = Debug;
+		};
+		C415737227D4E0FA006C9F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSBGPNU5U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmert.coinYakalaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coinYakala;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C415733B27D4E0FA006C9F85 /* Build configuration list for PBXProject "coinYakala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C415736827D4E0FA006C9F85 /* Debug */,
+				C415736927D4E0FA006C9F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C415736A27D4E0FA006C9F85 /* Build configuration list for PBXNativeTarget "coinYakala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C415736B27D4E0FA006C9F85 /* Debug */,
+				C415736C27D4E0FA006C9F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C415736D27D4E0FA006C9F85 /* Build configuration list for PBXNativeTarget "coinYakalaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C415736E27D4E0FA006C9F85 /* Debug */,
+				C415736F27D4E0FA006C9F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C415737027D4E0FA006C9F85 /* Build configuration list for PBXNativeTarget "coinYakalaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C415737127D4E0FA006C9F85 /* Debug */,
+				C415737227D4E0FA006C9F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C415733827D4E0FA006C9F85 /* Project object */;
+}
